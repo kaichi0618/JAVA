@@ -15,6 +15,10 @@ public class Chapter05 {
 		System.out.println(f1);
 		System.out.println(int1);
 		System.out.println(c1);
+		
+		int[] array5 = new int[] {10, 20, 30, 40, 50};
+		System.out.println(array5[3]);
+		
 	}
 
 }
