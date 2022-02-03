@@ -20,5 +20,12 @@ public class Chapter08 {
 				System.out.println(val);
 			}
 		}
+		
+		for (int val1 : array) {
+			if (val1 % 2 ==0) {
+				continue;
+			}
+			System.out.println(val1);
+		}
 	}
 }
